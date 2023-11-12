@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <title>Singin</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>LOGIN</h1>
+
+
+            <div class="label-float">
+                <input type="text" id="user" paceholder="" required />
+                <label id="userLabel" for="user">Usuario</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="pass" paceholder="" required />
+                <label id="senhaLabel" for="pass">Senha</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="login()">Entrar</button>
+            </div>
+
+            <div class="justify-center">
+                <hr />
+            </div>
+
+            <div class="justify-center">
+                <button onclick="cadastrar()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
